@@ -72,7 +72,7 @@
 		F00DD62E28C7EA4F00DA1E37 /* Attendly2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Attendly2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00DD63228C7EA4F00DA1E37 /* Attendly2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly2UITests.swift; sourceTree = "<group>"; };
 		F00DD63428C7EA4F00DA1E37 /* Attendly2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly2UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F00DD67C28C7F2FC00DA1E37 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		F00DD67C28C7F2FC00DA1E37 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
