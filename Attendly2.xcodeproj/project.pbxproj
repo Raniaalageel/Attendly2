@@ -14,6 +14,7 @@
 		F00DD62928C7EA4F00DA1E37 /* Attendly2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD62828C7EA4F00DA1E37 /* Attendly2Tests.swift */; };
 		F00DD63328C7EA4F00DA1E37 /* Attendly2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD63228C7EA4F00DA1E37 /* Attendly2UITests.swift */; };
 		F00DD63528C7EA4F00DA1E37 /* Attendly2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD63428C7EA4F00DA1E37 /* Attendly2UITestsLaunchTests.swift */; };
+		F00DD67D28C7F2FC00DA1E37 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = F00DD67C28C7F2FC00DA1E37 /* GoogleService-Info (1).plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F00DD62E28C7EA4F00DA1E37 /* Attendly2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Attendly2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00DD63228C7EA4F00DA1E37 /* Attendly2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly2UITests.swift; sourceTree = "<group>"; };
 		F00DD63428C7EA4F00DA1E37 /* Attendly2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F00DD67C28C7F2FC00DA1E37 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				F00DD61728C7EA4C00DA1E37 /* Attendly2App.swift */,
 				F00DD61928C7EA4C00DA1E37 /* ContentView.swift */,
 				F00DD61B28C7EA4E00DA1E37 /* Assets.xcassets */,
+				F00DD67C28C7F2FC00DA1E37 /* GoogleService-Info (1).plist */,
 				F00DD61D28C7EA4E00DA1E37 /* Preview Content */,
 			);
 			path = Attendly2;
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00DD61F28C7EA4E00DA1E37 /* Preview Assets.xcassets in Resources */,
+				F00DD67D28C7F2FC00DA1E37 /* GoogleService-Info (1).plist in Resources */,
 				F00DD61C28C7EA4E00DA1E37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
