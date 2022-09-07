@@ -16,6 +16,7 @@ struct ContentView: View {
     @State var   statusMessage = ""
     @State var   subject = ""
     @State var   section = ""
+    @State var   time = ""
     @State private var wrongUsername: Float = 0
     @State private var wrongPassword: Float  = 0
     var body: some View {
@@ -96,7 +97,7 @@ struct ContentView: View {
     
     private func storeUserInformation(){
         guard let uid=Auth.auth().currentUser?.uid else {return }
-        let userData = ["Email":self.email ,"ID":self.pass, "section":self.section, "subject":self.subject,"uid":uid]
+        let userData = ["Email":self.email ,"ID":self.pass, "section":self.section, "subject":self.subject,"time":self.time,"uid":uid]
         Firestore.firestore().collection("studentApp")
             .document(uid).setData(userData){err in
                 if let err = err {
