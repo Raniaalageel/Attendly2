@@ -14,7 +14,6 @@
 		F00DD62928C7EA4F00DA1E37 /* Attendly2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD62828C7EA4F00DA1E37 /* Attendly2Tests.swift */; };
 		F00DD63328C7EA4F00DA1E37 /* Attendly2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD63228C7EA4F00DA1E37 /* Attendly2UITests.swift */; };
 		F00DD63528C7EA4F00DA1E37 /* Attendly2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00DD63428C7EA4F00DA1E37 /* Attendly2UITestsLaunchTests.swift */; };
-		F00DD67D28C7F2FC00DA1E37 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = F00DD67C28C7F2FC00DA1E37 /* GoogleService-Info (1).plist */; };
 		F00DD6B728C7F94300DA1E37 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6B628C7F94300DA1E37 /* FirebaseAnalytics */; };
 		F00DD6B928C7F94300DA1E37 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6B828C7F94300DA1E37 /* FirebaseAnalyticsOnDeviceConversion */; };
 		F00DD6BB28C7F94300DA1E37 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6BA28C7F94300DA1E37 /* FirebaseAnalyticsSwift */; };
@@ -42,6 +41,7 @@
 		F00DD6E728C7F94300DA1E37 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6E628C7F94300DA1E37 /* FirebaseRemoteConfigSwift */; };
 		F00DD6E928C7F94300DA1E37 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6E828C7F94300DA1E37 /* FirebaseStorage */; };
 		F00DD6EB28C7F94300DA1E37 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6EA28C7F94300DA1E37 /* FirebaseStorageCombine-Community */; };
+		F0E7555F28C90B8300137212 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0E7555E28C90B8300137212 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		F00DD62E28C7EA4F00DA1E37 /* Attendly2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Attendly2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00DD63228C7EA4F00DA1E37 /* Attendly2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly2UITests.swift; sourceTree = "<group>"; };
 		F00DD63428C7EA4F00DA1E37 /* Attendly2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly2UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F00DD67C28C7F2FC00DA1E37 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		F0E7555E28C90B8300137212 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +154,7 @@
 				F00DD61728C7EA4C00DA1E37 /* Attendly2App.swift */,
 				F00DD61928C7EA4C00DA1E37 /* ContentView.swift */,
 				F00DD61B28C7EA4E00DA1E37 /* Assets.xcassets */,
-				F00DD67C28C7F2FC00DA1E37 /* GoogleService-Info (1).plist */,
+				F0E7555E28C90B8300137212 /* GoogleService-Info.plist */,
 				F00DD61D28C7EA4E00DA1E37 /* Preview Content */,
 			);
 			path = Attendly2;
@@ -322,7 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00DD61F28C7EA4E00DA1E37 /* Preview Assets.xcassets in Resources */,
-				F00DD67D28C7F2FC00DA1E37 /* GoogleService-Info (1).plist in Resources */,
+				F0E7555F28C90B8300137212 /* GoogleService-Info.plist in Resources */,
 				F00DD61C28C7EA4E00DA1E37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,7 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Attendly2/Preview Content\"";
-				DEVELOPMENT_TEAM = PAB8DXHU6M;
+				DEVELOPMENT_TEAM = W78XWDZL72;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -537,7 +537,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Attendly2/Preview Content\"";
-				DEVELOPMENT_TEAM = PAB8DXHU6M;
+				DEVELOPMENT_TEAM = W78XWDZL72;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
