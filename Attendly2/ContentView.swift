@@ -96,7 +96,7 @@ struct ContentView: View {
     
     private func storeUserInformation(){
         guard let uid=Auth.auth().currentUser?.uid else {return }
-        let userData = ["Email":self.email ,"ID":self.pass, "section":self.section, "subject":self.subject,"uid":uid]
+        let userData = ["Email":self.email ,"passw":self.pass, "section":self.section, "subject":self.subject,"uid":uid]
         Firestore.firestore().collection("studentApp")
             .document(uid).setData(userData){err in
                 if let err = err {
