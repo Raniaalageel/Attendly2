@@ -136,6 +136,7 @@
 				F00DD61528C7EA4C00DA1E37 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		F00DD61528C7EA4C00DA1E37 /* Products */ = {
 			isa = PBXGroup;
@@ -507,7 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Attendly2/Preview Content\"";
-				DEVELOPMENT_TEAM = K9TPRSV2Z7;
+				DEVELOPMENT_TEAM = PAB8DXHU6M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -536,7 +537,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Attendly2/Preview Content\"";
-				DEVELOPMENT_TEAM = K9TPRSV2Z7;
+				DEVELOPMENT_TEAM = PAB8DXHU6M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
