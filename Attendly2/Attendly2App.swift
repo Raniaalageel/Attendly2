@@ -25,7 +25,8 @@ struct Attendly2App: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            splashScreenView()
+            //splashScreenView()
+            ContentView()
         }
     }
 }
