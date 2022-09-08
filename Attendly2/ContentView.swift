@@ -18,6 +18,7 @@ struct ContentView: View {
     @State var   section = ""
     @State private var wrongUsername: Float = 0
     @State private var wrongPassword: Float  = 0
+    @State private var showWelcomeView = false
     var body: some View {
         NavigationView {
             ZStack {
@@ -51,9 +52,17 @@ struct ContentView: View {
                         .cornerRadius(10)
                         .border(.red, width: CGFloat(wrongPassword))
                     
-                    Button("Login") {
-                        loginuser()
-                        }
+                    //Button("Login") {
+                        //loginuser()
+                        //tabBar()
+                        //}
+                    NavigationView{
+                  Button(action: { showWelcomeView = true }) {
+                     //   Button(action: { loginuser() }) {
+
+                        Text("Login")
+                        //loginuser()
+                    }
                     .foregroundColor(.white)
                     .frame(width: 300, height: 50)
                     .background(Color.blue)
@@ -65,6 +74,7 @@ struct ContentView: View {
            // }.navigationBarHidden(true)
            
         }
+                NavigationLink("", destination: tabBar(), isActive: $showWelcomeView)}
     }
     }
     
@@ -79,15 +89,17 @@ struct ContentView: View {
     private func loginuser() {
         Auth.auth().signIn(withEmail: email , password: pass) { result ,err in
             if let err = err{
+             //   showWelcomeView=false
                 print("faild",err)
-                self.statusMessage="Faild to ligin: \(err)"
+                self.statusMessage="Faild to login: \(err)"
             return
             }
+          //  showWelcomeView=true
             print("sucssfuly:  \(result?.user.uid ?? "") ")
             self.statusMessage="sucffuel is : \(result?.user.uid ?? "")"
            
             
-           self.storeUserInformation()
+           //self.storeUserInformation()
           //  self.moveto()
 
         }
@@ -97,7 +109,7 @@ struct ContentView: View {
     private func storeUserInformation(){
         guard let uid=Auth.auth().currentUser?.uid else {return }
         let userData = ["Email":self.email ,"passw":self.pass, "section":self.section, "subject":self.subject,"uid":uid]
-        Firestore.firestore().collection("studentApp")
+        Firestore.firestore().collection("studentApp ")
             .document(uid).setData(userData){err in
                 if let err = err {
                     print(err)

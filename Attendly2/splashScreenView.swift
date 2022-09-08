@@ -2,7 +2,7 @@
 //  splashScreenView.swift
 //  Attendly2
 //
-//  Created by Sara Alsaleh on 11/02/1444 AH.
+//  Created by Rania Alageel on 12/02/1444 AH.
 //
 
 import SwiftUI
@@ -50,4 +50,3 @@ struct splashScreenView_Previews: PreviewProvider {
         splashScreenView()
     }
 }
-

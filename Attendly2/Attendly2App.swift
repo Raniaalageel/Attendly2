@@ -8,6 +8,7 @@
 import SwiftUI
 import FirebaseCore
 import Firebase
+import CoreNFC
 
 
 
@@ -25,8 +26,9 @@ struct Attendly2App: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            //splashScreenView()
-            ContentView()
+          splashScreenView()
+            //ContentView()
+            //tabBar()
         }
     }
 }

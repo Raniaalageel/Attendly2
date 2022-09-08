@@ -41,7 +41,12 @@
 		F00DD6E728C7F94300DA1E37 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6E628C7F94300DA1E37 /* FirebaseRemoteConfigSwift */; };
 		F00DD6E928C7F94300DA1E37 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6E828C7F94300DA1E37 /* FirebaseStorage */; };
 		F00DD6EB28C7F94300DA1E37 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F00DD6EA28C7F94300DA1E37 /* FirebaseStorageCombine-Community */; };
-		F0E7555F28C90B8300137212 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0E7555E28C90B8300137212 /* GoogleService-Info.plist */; };
+		F064F2EC28C945DE009175FC /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064F2EB28C945DE009175FC /* tabBar.swift */; };
+		F064F2F228C94917009175FC /* NFCtag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064F2F128C94917009175FC /* NFCtag.swift */; };
+		F064F2F428C9A920009175FC /* splashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F064F2F328C9A920009175FC /* splashScreenView.swift */; };
+		F09E997728C9C39D002A9319 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F09E997628C9C39D002A9319 /* GoogleService-Info.plist */; };
+		F0E755A028C943A200137212 /* Uprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E7559F28C943A200137212 /* Uprofile.swift */; };
+		F0E755A228C943A900137212 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E755A128C943A900137212 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +77,13 @@
 		F00DD62E28C7EA4F00DA1E37 /* Attendly2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Attendly2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00DD63228C7EA4F00DA1E37 /* Attendly2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly2UITests.swift; sourceTree = "<group>"; };
 		F00DD63428C7EA4F00DA1E37 /* Attendly2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendly2UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F0E7555E28C90B8300137212 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F064F2EB28C945DE009175FC /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBar.swift; sourceTree = "<group>"; };
+		F064F2F128C94917009175FC /* NFCtag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCtag.swift; sourceTree = "<group>"; };
+		F064F2F328C9A920009175FC /* splashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreenView.swift; sourceTree = "<group>"; };
+		F09E997628C9C39D002A9319 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0E7559C28C9415E00137212 /* NFCtags.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = NFCtags.entitlements; path = "../../../../Desktop/NFCtags 2/NFCtags/NFCtags.entitlements"; sourceTree = "<group>"; };
+		F0E7559F28C943A200137212 /* Uprofile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Uprofile.swift; path = "../../../../Desktop/NFCtags 2/NFCtags/Uprofile.swift"; sourceTree = "<group>"; };
+		F0E755A128C943A900137212 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Home.swift; path = "../../../../Desktop/NFCtags 2/NFCtags/Home.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,11 +162,17 @@
 		F00DD61628C7EA4C00DA1E37 /* Attendly2 */ = {
 			isa = PBXGroup;
 			children = (
+				F0E7559C28C9415E00137212 /* NFCtags.entitlements */,
 				F00DD61728C7EA4C00DA1E37 /* Attendly2App.swift */,
 				F00DD61928C7EA4C00DA1E37 /* ContentView.swift */,
+				F064F2EB28C945DE009175FC /* tabBar.swift */,
+				F0E7559F28C943A200137212 /* Uprofile.swift */,
+				F064F2F128C94917009175FC /* NFCtag.swift */,
+				F0E755A128C943A900137212 /* Home.swift */,
 				F00DD61B28C7EA4E00DA1E37 /* Assets.xcassets */,
-				F0E7555E28C90B8300137212 /* GoogleService-Info.plist */,
+				F09E997628C9C39D002A9319 /* GoogleService-Info.plist */,
 				F00DD61D28C7EA4E00DA1E37 /* Preview Content */,
+				F064F2F328C9A920009175FC /* splashScreenView.swift */,
 			);
 			path = Attendly2;
 			sourceTree = "<group>";
@@ -322,8 +339,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F00DD61F28C7EA4E00DA1E37 /* Preview Assets.xcassets in Resources */,
-				F0E7555F28C90B8300137212 /* GoogleService-Info.plist in Resources */,
 				F00DD61C28C7EA4E00DA1E37 /* Assets.xcassets in Resources */,
+				F09E997728C9C39D002A9319 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,8 +365,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F064F2F228C94917009175FC /* NFCtag.swift in Sources */,
 				F00DD61A28C7EA4C00DA1E37 /* ContentView.swift in Sources */,
+				F0E755A228C943A900137212 /* Home.swift in Sources */,
 				F00DD61828C7EA4C00DA1E37 /* Attendly2App.swift in Sources */,
+				F0E755A028C943A200137212 /* Uprofile.swift in Sources */,
+				F064F2EC28C945DE009175FC /* tabBar.swift in Sources */,
+				F064F2F428C9A920009175FC /* splashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +530,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Attendly2/Preview Content\"";
-				DEVELOPMENT_TEAM = W78XWDZL72;
+				DEVELOPMENT_TEAM = K9TPRSV2Z7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -521,7 +543,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-SwiftDemo.Attendly2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftDemo.Attendly2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -537,7 +559,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Attendly2/Preview Content\"";
-				DEVELOPMENT_TEAM = W78XWDZL72;
+				DEVELOPMENT_TEAM = K9TPRSV2Z7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -550,7 +572,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.-SwiftDemo.Attendly2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftDemo.Attendly2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
